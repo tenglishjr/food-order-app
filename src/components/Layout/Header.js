@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import {Fragment} from 'react';
 
 import classes from '../../styling/Header.module.css';
 import mealsImg from '../../assets/meals.jpeg';

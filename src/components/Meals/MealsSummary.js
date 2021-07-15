@@ -1,5 +1,3 @@
-import React from 'react';
-
 import classes from '../../styling/MealsSummary.module.css';
 
 const MealsSummary = () => {

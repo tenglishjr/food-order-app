@@ -1,5 +1,3 @@
-import React from 'react';
-
 import classes from '../../styling/HeaderCartButton.module.css';
 import CartIcon from "../Cart/CartIcon";
 
