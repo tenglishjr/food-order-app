@@ -51,7 +51,13 @@ const Checkout = props => {
                 enteredZipcode;
 
         if (formIsValid) {
-            return;
+            props.onConfirm({
+                name: enteredName,
+                address: enteredAddress,
+                city: enteredCity,
+                state: enteredState,
+                zipcode: enteredZipcode
+            });
         }
     };
 
